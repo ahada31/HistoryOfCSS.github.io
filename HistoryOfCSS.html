@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cascading Style Sheets</title>
+  <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Amatic+SC|Raleway:100,500,600,800" rel="stylesheet">
+  <style>
+    
+body {  
+  padding: 0;
+  margin: 0;
+  background: #f7f7f7;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+}
+
+/** Header styles **/
+.header {
+  background-image: url(http://www.theinternetdigest.net/wp-content/uploads/2014/05/css-style.png);
+  height: 400px;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: #363125;
+  font-family: 'Amatic SC', cursive;                                                                                                                                                        
+  font-size: 200px;
+  line-height: 76px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  top: 40%;
+  font-weight: bold;
+}
+
+/** List style **/
+h2 {
+  color: #E4BB97;
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+  font-weight: 650;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 100px; 
+}
+h3 {
+  color: #E4BB97;
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+h5 {
+  color: #E4BB97;
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 50%;
+}
+
+li {
+  border-bottom: 1px solid #8df2c8;
+  list-style: none;
+  margin: 100px 0px;
+  padding-bottom: 60px;
+}
+
+p {
+  color: white;
+  line-height: 32px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 110;
+}
+
+a {
+  color: #dbd9da;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  line-height: 45px;
+}
+a:hover {
+  background-color: #409c49;
+  color: #7de5ff;
+  font-size: 0.9em; 
+}
+h3:hover {
+  background-color: #cbf0f2;
+  color: #4640ff;
+}
+h2:hover {
+  background-color: #f7f7f7; 
+  top: 100px; 
+  color: black; 
+}
+
+.css-pictures {
+ margin-top: 30px;
+ margin-bottom: 5px; 
+ border-left: 10px solid #E4BB97;
+ border-right: 10px solid #E4BB97;
+ border-bottom: 10px solid #E4BB97;
+ border-top: 10px solid #E4BB97;
+ /* Note-to-developer (Ahad) ----+=//~_-_-_-_-_-_-_-_-_-_-_-_~
+!margin-right: 255px; --> Keep it like that.! */
+ margin-right: 255px;
+ padding-bottom: 0em;
+ width: 500px; 
+}
+.def {
+  color: #5e8cff;
+}
+.def:hover {
+  background-color: #d4ff5e; 
+}
+#back-to-top {
+  font-style: italic;
+  color: #05A8AA;
+  border: 1px solid #05A8AA;
+  border-radius: 4px;
+  margin: 10px 0px;
+  padding: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#back-to-top:hover {
+  background-color: #05A8AA;
+  border: 1px solid #05A8AA;
+  color: #FFF;
+}
+#aft:hover {
+  background-color: purple;
+  color: yellow; 
+}
+#aft {
+  font-size: 0.79em;
+}
+
+/*Wooden Background image stuff only*/
+#other-than-header {
+  background-image: url("http://hdwallpaperia.com/wp-content/uploads/2013/10/Black-Background-Design-1024x640.jpg");
+  background-size: cover;
+  background-attachment: fixed; 
+}
+/*Ends here*/
+.benefits-of-css-list:hover {
+  background-color: #605cc4; 
+  color: #ede58e;
+  font-weight: bold;
+}
+
+#glossary-title {
+  color: #E4BB97;
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+#glossary-title:hover {
+  background-color: #cbf0f2;
+  color: #4640ff;
+}
+
+#glossary {
+  float: left;
+  border-right: 1px solid #05A8AA;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-bottom: 1px solid #05A8AA;
+  padding-bottom: 20px;
+  border-bottom-right-radius: 24px;
+  margin-right: 50px;
+}
+  </style>
+
+
+
+
+
+</head>
+<body>
+  <div class="header">
+    <h1 id="top-the">The History of CSS</h1>
+  </div>
+  <div id="other-than-header">
+
+<div id="glossary">
+    <h6 id="glossary-title">Glossary</h6>
+      <a href="#definition">Definition</a><br>
+      <strong><a href="#history-of-html-and-css">History of HTML and CSS</a></strong><br>
+      <a href="#first-there-was-html">First There was HTML</a><br>
+      <a href="#then-came-images">Then Came Images</a><br>
+      <a href="#next-came-tables">Next Came Tables</a><br>
+      <a href="#subversion-of-tables">The Subversion of Tables</a><br>
+      <a href="#enter-picture">Web Designers Enter the Picture</a><br>
+      <a href="#be-e">Browsers evolved</a><br>
+      <a href="#proprietary-tags">Are Proprietary Tags Good or Bad?</a><br>
+      <a href="#evolution">Browsers And HTML Evolved</a><br>
+      <a href="#css-is-better">A better way - css</a><br>
+      <a href="#what-is-css">What exactly is css?</a><br>
+      <a href="#benefits">benefits of using css</a><br>
+      <a href="#learn-ya">Where can i learn css and html?</a>
+
+</div>
+
+  <ul>
+    <li id="intro">
+      <h2>The History of Cascading Style Sheets</h2>
+      <p>Here, you will learn where CSS came from, what it is, who created it, what it stands for, and it's history. Also, some HTML.</p>
+      <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">Learn more on wikipedia</a>
+    </li>
+
+    <li>
+      <h3 id="definition">Definition</h3>
+      <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language. Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media.</p>
+      <a href="http://www.webopedia.com/TERM/C/CSS.html">detailed definition</a> <br>
+    </li>
+
+    <li></li>
+
+    <li>
+      <h2 id="history-of-html-and-css">History of HTML and CSS</h2>
+      <h5>In the beginning there was text but...<br>
+      ...no "style"</h5>
+    </li>
+
+    <li>
+      <h3 id="first-there-was-html">First There was HTML</h3>
+      <p>HTML stands for Hyper Text Markup Language and was intended to be used solely to provide document structure for a text based communication medium. (HTML was created in 1990.) So now there is formatted text with multiple levels of headings and body text.</p>
+      <div class="css-pictures">
+        <img src="http://satimis.com/wp-content/uploads/2014/12/html_4268841912_c2b34ca43c.jpg" alt="HTML-logo" width="500px">
+      </div>
+    </li>
+
+    <li>
+      <h3 id="then-came-images">Then Came Images</h3>
+      <p>Image tags were added with HTML 2.0 (first released April 1994 and approved as standard Sept. 1995). How images were presented still very limited. The only attribute available was an alt tag for those who preferred not to view images or used browsers (the majority) that didn’t support images.</p>
+      <div class="css-pictures">
+      <img src="http://www.homeandlearn.co.uk/WD/images/chapter3/template_html.gif" alt="html-img-atribute" width="500px">
+      </div>
+    </li>
+
+    <li>
+      <h3 id="next-came-tables">Next Came Tables</h3>
+      <p>Starting with HTML version 3.0 tables were introduced. (Note: HTML 3.0 was never “approved” but was released under development from Nov. 93 to the expiration of the published specification in Sept. 95). According to the spec tables were for the “presentation of tabular data” only. The web is still seen as primarily a way to exchange information and access to the Internet.</p>
+      <div class="css-pictures">
+      <img src="http://oregonstate.edu/accessibility/sites/default/files/gallerix/repository/DrupalTableHTML.png" alt="table-atribute" width="500px">
+      </div>
+    </li>
+
+    <li>
+      <h3 id="subversion-of-tables">The "Subversion" of Tables</h3>
+      <p>A few people noticed that tables could be used for more than just “data”. By placing images inside data cells and text in adjoining cells you could reliably control the layout of your page. It no longer embbed and flowed according to the browser. This combined with font markup inside the table tags page display was more like that of a printed page.</p>
+      <a href="https://www.merriam-webster.com/dictionary/subversion">definition of subversion</a>
+    </li>
+
+    <li>
+      <h3 id="enter-picture">Web Designers Enter the Picture</h3>
+      <p>With HTML 3.2 it became possible to set fonts, colors, place backgrounds behind your text and many other elements of presentation. The Web Designer was now born. No longer was the page content “THE” most important part of the page. Presentation was paramount. (HTML 3.2 was published on May 5, 1996 and became the recommended version Jan. 14, 1997)</p>
+      <div class="css-pictures">
+      <img src="http://www.rapidcsseditor.com/images/css-editor.png" alt="css-in-code-editor" width="500px">
+      </div>
+    </li>
+
+    <li>
+      <h3 id="be-e">Browsers Evolved</h3>
+      <p>In the early days of the web there were text based browsers. Then Mosiac and other browsers came along that supported the new tags. As more browsers became available, the entry of Netscape followed by Microsoft into the browser market for example, proprietary tags were introduced to enable users to have a better web experience.</p>
+    </li>
+
+    <li>
+    <h3 id="proprietary-tags">Are Proprietary Tags Good or Bad?</h3>
+    <p>Each browser wanted to increase their market share and though extending HTML with proprietary tags was a good way to go about it. Some examples include:<br><br>"blink"=Netscape<br>
+"marquee"=Internet Explorer<br><br>What started as a proprietary tag sometimes made it into the next release of the HTML Spec.</p>
+    </li>
+
+    <li>
+      <h3 id="evolution">Browsers and HTML Evolved</h3>
+      <p>There were many problems with the “Ad Hoc” nature of the browser driven tag development. Accessibility was compromised (alt tags have existed as long as there have been images in the spec). Pages displayed differently and sometime features using proprietary tags didn’t display at all in other browsers. Browser interpretation of display code varied (and continues to vary) greatly.<br>Tags became orphaned as one version of competing tags became widely accepted and made it into the next version of the spec.</p>
+      <div class="css-pictures">
+    <img src="http://i1-news.softpedia-static.com/images/news2/How-To-Block-Third-Party-Cookies-in-Windows-Web-Browsers-479438-7.jpg" alt="browsers" width="500px">
+    </div>
+    </li>
+
+    <li>
+      <h3 id="css-is-better">A Better Way - CSS</h3>
+      <p>Those involved with setting web standards – W3C – thought there had to be a better way. They wanted to return to the roots of the Internet and divorce all the presentation from content. Dec. 1996 saw the release of the CSS Level 1 Spec as the start of the process of separating display from content. Subsequent releases of version 4 browsers began incorporating CSS support. </p>
+    </li>
+
+    <li>
+      <h3 id="what-is-css">What Exactly is CSS?</h3>
+      <p>Cascading Style Sheets (CSS) is a simple method for adding style (e.g. fonts, colors, and spacing) to Web documents. Style sheets describe how documents are presented on screens, in print, or perhaps how they are pronounced. This has resulted in several W3C Recommendations (CSS1, CSS2, XPath, XSLT). CSS Level 1 especially is implemented in current version browsers. <br>By attaching style sheets to structured documents on the Web (e.g. HTML), authors and readers can influence the presentation of documents without sacrificing device-independence or adding new HTML tags. <br> <br>So, this webpage that you are reading now is styled with CSS.</p><br>
+      <a href="https://www.w3.org/Style/CSS/">click here to visit it's website</a>
+    </li>
+
+    <li>
+      <h3 id="benefits">Benefits of Using CSS</h3>
+      <p>
+      <span class="benefits-of-css-list">- Consistent look and feel to the site.<br><br></span>
+      <span class="benefits-of-css-list">- With one or two stylesheets you can keep your site colors, fonts, links, and other elements the same throughout your site without having to hard code the same information on each and every page of your site.<br><br></span>
+      <span class="benefits-of-css-list">- Using CSS saves time.<br><br></span>
+      <span class="benefits-of-css-list">- While it may take a bit longer for the first page, especially if you are using a WYSIWYG editor to create your HTML you will save time on additional pages.<br><br></span>
+      <span class="benefits-of-css-list">- You can change the entire look and feel by changing just the stylesheet.<br><br></span>
+      <span class="benefits-of-css-list">- No need to go through your site page by page to make sure the new look is applied. <br><br></span>
+      <span class="benefits-of-css-list">- No more jarring contrasts because you overlooked a page on your redesign.</p></span>
+    </li>
+<li></li>
+    <li>
+      <h3 id="learn-ya">Where Can I learn CSS and HTML?</h3>
+      <p>A few fun and easy websites to learn HTML and CSS are Khan Academy and CodeCademy (links below).</p>
+      <a href="https://www.khanacademy.org/computing/computer-programming/html-css">Click here to learn HTML and CSS on Khan Academy</a><br>
+      <a href="https://www.codecademy.com/learn/learn-html-css">click here to learn html and css on codecademy</a>
+
+    </li>
+
+    <li><p id="aft">Made by Ahad with <strong>HTML</strong> and <strong>CSS</strong>.</p></li>
+      
+  </ul>
+  <marquee>
+      <p><a id="back-to-top" href="#top-the">BACK TO TOP</a></p>
+      </marquee>
+
+</div>
+</body>
+</html>
